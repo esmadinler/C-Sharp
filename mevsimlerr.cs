@@ -22,20 +22,16 @@ namespace mevsimler
             string mevsim;
             mevsim = textBox1.Text;
             if (mevsim == "ilkbahar")
-            {label1.Text =(" Mevsimindeki aylar Mart Nisan 
-            Mayıs");}
+            {label1.Text =(" Mevsimindeki aylar Mart Nisan Mayıs");}
             
             else if (mevsim == "yaz")
-            {label1.Text =(" Mevsimindeki aylar Haziran 
-            Temmuz Ağustos");}
+            {label1.Text =(" Mevsimindeki aylar Haziran Temmuz Ağustos");}
             
             else if (mevsim == "sonbahar")
-            {label1.Text =("Mevsimindeki aylar Eylül Ekim 
-            Kasım");}
+            {label1.Text =("Mevsimindeki aylar Eylül Ekim Kasım");}
             
             else if (mevsim == "kış")
-            {label1.Text =("Mevsimindeki aylar Aralık Ocak 
-            Şubat");}
+            {label1.Text =("Mevsimindeki aylar Aralık Ocak Şubat");}
             
             else
             {label1.Text =("Hatalı giriş yaptınız");}
