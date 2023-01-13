@@ -1,7 +1,7 @@
  private void button1_Click_1(object sender, EventArgs e)
 {
-   string sayi = textBox2.Text;
-   switch (sayi)
+   string gun = textBox2.Text;
+   switch (gun)
    { 
     case "1": label2.Text = "Pazartesi"; break;
     case "2": label2.Text = "Salı"; break;
